@@ -1,0 +1,33 @@
+.dc-form ul {
+	padding: 0px !important;
+}
+
+.dc-form li, .dc-form li:hover {
+	list-style: none !important;
+	padding: 0.8125em 0px;
+	border-bottom: 1px solid #e7e7e7;
+	line-height: 1.5em;
+}
+
+.dc-form li:hover p {
+	color: #888;
+}
+
+.dc-form input {
+	margin-right: 16px;
+}
+
+.dc-form p {
+	display: inline-block;
+	margin: 0px;
+}
+
+.dc-form .message, .dc-form .ajax-loader {
+	float: right;
+	text-align: right;
+}
+
+.dc-form .ajax-loader {
+	position: relative;
+	top: 8px;
+}
